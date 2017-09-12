@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+    implementation 'io.netty:netty-all:4.1.15.Final'
+    implementation 'org.springframework:spring-context:4.3.11.RELEASE'
+
+    testImplementation 'junit:junit:4.12'
+}
+
